@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="106dp"
+        android:text="Click" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="126dp"
+        android:layout_below="@id/buttonCamera"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="85dp"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>
